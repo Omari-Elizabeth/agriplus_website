@@ -27,3 +27,44 @@ a:hover{
     background-color: orange;
     padding: 12px;
 }
+/*.row-1{
+    display: flex;
+    flex-direction: row;
+}
+#id{
+    float: right;
+}
+
+#explore{
+    background-color: orange;
+    padding: 12px;
+}
+*/
+.row-2{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-image: url("images/image 1.png");
+    background-position: bottom;
+    background-image: url("images/image 3.png");
+    background-position: top right;
+}
+#comm{
+    position: relative;
+    right: 30px;
+}
+.category{
+    text-align: center;
+}
+/*.row-3{
+    display: flex;
+    flex-direction: row;
+}
+*/
+table{
+    border: 0px;
+    padding: 10px;
+}
+td{
+    object-fit: cover;
+}
