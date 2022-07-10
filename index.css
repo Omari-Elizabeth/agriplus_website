@@ -68,3 +68,8 @@ table{
 td{
     object-fit: cover;
 }
+.bottomnav{
+    background-color: black;
+    color: white;
+    display: flex;
+}
