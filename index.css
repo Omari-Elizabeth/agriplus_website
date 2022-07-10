@@ -1,0 +1,29 @@
+.topnav {
+    background-color:  black; 
+    color: white;
+    padding: 30px;
+    font-size: larger;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+a:hover{
+    background-color: orange;
+}
+.nav-1{
+    justify-content: space-around;
+}
+.logo{
+    float: left;
+    font-size: xx-large;
+}
+.login{
+    float: right;
+}
+.get_started{
+    float: right;
+    background-color: orange;
+    padding: 12px;
+}
