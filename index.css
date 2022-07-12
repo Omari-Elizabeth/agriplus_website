@@ -1,6 +1,13 @@
 *{
     font-family: sans-serif;
-    
+    box-sizing: border-box;
+    max-width: 90%;
+}
+img{
+    width: auto;
+    height: auto;
+    max-width: 350px;
+    max-height: 250px;
 }
 .topnav {
     background-color:  black; 
@@ -30,7 +37,7 @@ a:hover{
     float: right;
     background-color: orange;
     padding: 12px;
-    border: 10px;
+    margin: 20px;
 }
 .row-1{
     display: flex;
@@ -38,6 +45,7 @@ a:hover{
     background-image: url("images/image 1.png");
     background-repeat: no-repeat;
     height: 500px;
+    width: auto;
     background-position: center;
     background-size: cover;
 
@@ -76,7 +84,7 @@ button{
     flex-direction: row;
     width: auto;
     border: 10px;
-    padding: 80px;
+    padding: 100px;
     padding-top: 60px;
 }
 #comm{
@@ -101,8 +109,27 @@ table{
     border: 0px;
     padding: 10px;
 }
+Span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
 td{
     object-fit: cover;
+}
+#topic{
+    float: left;
+}
+/*.row-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}*/
+#tabled{
+    margin-left: 30px;
 }
 .bottomnav{
     background-color: black;
