@@ -134,6 +134,7 @@ td{
 #all{
     display: flex;
     flex-direction: row-reverse;
+    padding-bottom: 30px;
 }
 hr.solid{
     border-top: 3px solid #bbb;
@@ -151,7 +152,13 @@ hr.solid{
     width: auto;
     height: auto;
 }
-
+.contact{
+    text-align: center;
+    padding: 30px;
+}
+#id{
+    font-size: xx-small;
+}
 .bottomnav{
     background-color: black;
     color: white;
@@ -170,3 +177,13 @@ hr style{
 td{
     padding: 20px;
 }
+#footer{
+    text-align: center;
+}
+.row-5{
+    padding-top: 30px;
+}
+#shadow{
+    
+    box-shadow: 3px 7px #dbcfcf;
+  }
