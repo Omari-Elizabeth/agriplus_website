@@ -131,6 +131,27 @@ td{
 #tabled{
     margin-left: 30px;
 }
+#all{
+    display: flex;
+    flex-direction: row-reverse;
+}
+hr.solid{
+    border-top: 3px solid #bbb;
+}
+.checked{
+    color: orange;
+}
+#comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+#id{
+    width: auto;
+    height: auto;
+}
+
 .bottomnav{
     background-color: black;
     color: white;
