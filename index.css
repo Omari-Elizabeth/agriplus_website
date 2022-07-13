@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif;
+    font-family: 'Poppins'sans-serif;
     box-sizing: border-box;
     max-width: 100%;
 }
@@ -19,12 +19,13 @@ img{
     flex-direction: row;
     justify-content: space-around;
     padding: 30px;
+    overflow: hidden;
 }
-a:hover{
+a :hover{
     background-color: orange;
 }
 .nav-1{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .logo{
     float: left;
