@@ -44,6 +44,8 @@ a:hover{
     flex-direction: row;
     background-image: url("images/image 1.png");
     background-repeat: no-repeat;
+    justify-content: space-around;
+    align-items: center;
     height: 500px;
     width: auto;
     background-position: center;
