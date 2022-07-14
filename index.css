@@ -1,7 +1,7 @@
 *{
     font-family: 'Poppins'sans-serif;
     box-sizing: border-box;
-    max-width: 100%;
+    /*max-width: 90%;*/
 }
 img{
     width: auto;
@@ -18,13 +18,16 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding: 30px;
     overflow: hidden;
 }
-a :hover{
+a:hover{
     background-color: orange;
 }
 .nav-1{
+    display: flex;
+    gap: 30px;
     justify-content: space-between;
 }
 .logo{
@@ -53,6 +56,7 @@ a :hover{
     background-size: cover;
 
 }
+
 #produce{
     max-width: 600px;
     max-height: 500px;
@@ -89,6 +93,13 @@ button{
     border: 10px;
     padding: 100px;
     padding-top: 60px;
+}
+u {
+    text-decoration-line: underline;
+    text-decoration-color: orange;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    
 }
 #comm{
     max-width: 600px;
@@ -138,6 +149,7 @@ td{
     display: flex;
     flex-direction: row-reverse;
     padding-bottom: 30px;
+    font-size: larger;
 }
 hr.solid{
     border-top: 3px solid #bbb;
