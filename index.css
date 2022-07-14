@@ -1,13 +1,13 @@
 *{
-    font-family: 'Poppins'sans-serif;
+    font-family: 'Poppins';
     box-sizing: border-box;
-    max-width: 90%;
+    max-width: 100%;
 }
 img{
     width: auto;
     height: auto;
-    max-width: 350px;
-    max-height: 250px;
+    /* max-width: 350px;
+    max-height: 250px; */
 }
 .topnav {
     background-color:  black; 
@@ -44,9 +44,10 @@ a:hover{
     margin: 20px;
 }
 .row-1{
+    font-size:20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: row; 
+    justify-content: space-around;  
     align-items: center;
     background-image: url("images/image 1.png");
     background-repeat: no-repeat;
@@ -58,13 +59,16 @@ a:hover{
 }
 
 #produce{
-    max-width: 600px;
-    max-height: 500px;
+    float: right;
+    max-width: 700px;
+    max-height: 600px;
     width: auto;
-    height: auto;
+    height: auto; 
+    
     
 }
 .absolute{
+    font-size: larger;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -75,6 +79,7 @@ a:hover{
     top: 600px;
     background-color: white;
     border: 0px;
+    box-shadow: 0px 5px #888888;;
 }
 .split-right{
     padding: 30px;
@@ -84,9 +89,13 @@ button{
     background-color:  #ED661F;
     color: azure;
     padding: 15px;
+    border: none;
+    border-radius: 2px;
 }
 
 .row-2{
+    font-size: larger;
+    align-items: center;
     display: flex;
     flex-direction: row;
     width: auto;
@@ -112,6 +121,7 @@ u {
     height: 2px;
 }
 .category{
+    font-size: larger;
     text-align: center;
 }
 /*.row-3{
@@ -172,7 +182,7 @@ hr.solid{
     padding: 30px;
 }
 #id{
-    font-size: xx-small;
+    font-size: small;
 }
 .bottomnav{
     background-color: black;
@@ -197,6 +207,7 @@ td{
     text-align: center;
 }
 .row-5{
+    font-size: larger;
     padding-top: 30px;
 }
 #shadow{
@@ -207,7 +218,23 @@ textarea{
     width: 250px;
 }
 #sub-button{
-    padding: 10px;
+    width: 150px;
+    height: 50px;
     background-color: #ED661F;
     color: white;
+    border: none;
+    border-radius:2px ;
+}
+#people{
+    width: 50px;
+    height: auto;
+}
+.form-input{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+}
+#Media{
+    background-color: #888888;
+    color: #888888;  
 }
