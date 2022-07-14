@@ -1,7 +1,7 @@
 *{
     font-family: 'Poppins'sans-serif;
     box-sizing: border-box;
-    /*max-width: 90%;*/
+    max-width: 90%;
 }
 img{
     width: auto;
@@ -23,7 +23,7 @@ img{
     overflow: hidden;
 }
 a:hover{
-    background-color: orange;
+    background-color:  #ED661F;
 }
 .nav-1{
     display: flex;
@@ -39,7 +39,7 @@ a:hover{
 }
 .get_started{
     float: right;
-    background-color: orange;
+    background-color: #ED661F;
     padding: 12px;
     margin: 20px;
 }
@@ -81,7 +81,7 @@ a:hover{
     border: 30px;
 }
 button{
-    background-color: orange;
+    background-color:  #ED661F;
     color: azure;
     padding: 15px;
 }
@@ -96,7 +96,7 @@ button{
 }
 u {
     text-decoration-line: underline;
-    text-decoration-color: orange;
+    text-decoration-color:  #ED661F;
     text-decoration-style: solid;
     text-decoration-thickness: 3px;
     
@@ -108,7 +108,7 @@ u {
     height: auto;
 }
 #hr-1 style{
-    color: orange;
+    color:  #ED661F;
     height: 2px;
 }
 .category{
@@ -155,7 +155,7 @@ hr.solid{
     border-top: 3px solid #bbb;
 }
 .checked{
-    color: orange;
+    color:  #ED661F;
 }
 #comments{
     display: flex;
@@ -184,6 +184,7 @@ hr.solid{
 footer{
     background-color: black;
     color: white;
+    width: 100%;
 }
 hr style{
     color: white;
@@ -202,3 +203,11 @@ td{
     
     box-shadow: 3px 7px #dbcfcf;
   }
+textarea{
+    width: 250px;
+}
+#sub-button{
+    padding: 10px;
+    background-color: #ED661F;
+    color: white;
+}
